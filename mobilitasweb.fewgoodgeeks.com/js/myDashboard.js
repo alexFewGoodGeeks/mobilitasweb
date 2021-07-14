@@ -20,7 +20,7 @@ $( document ).ready(function() {
     
     initMap();
     $.ajax({
-        url: 'https://mobilitas.fewgoodgeeks.com/wp-json/services/get-user-info/' + userId,
+        url: 'https://mobilitas.fewgoodgeeks.xyz/wp-json/services/get-user-info/' + userId,
         type: 'get',
         data: { show_gps: 1 },
         beforeSend: function (xhr) {   //Include the bearer token in header

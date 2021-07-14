@@ -26,7 +26,7 @@ $(document).ready(function () {
     function showPins(data) {
         clearPins();
         $.ajax({
-            url: "https://mobilitas.fewgoodgeeks.com/wp-json/services/destinations",
+            url: "https://mobilitas.fewgoodgeeks.xyz/wp-json/services/destinations",
             type: "GET",
             data: data,
             success: function (value) {

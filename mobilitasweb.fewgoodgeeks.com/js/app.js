@@ -316,7 +316,7 @@ $(document).ready(function() {$
         //  post user emai and pass to server(success response and error response)
         if (Boolean(username) && Boolean(password)) {
             $.ajax({
-                url: 'https://mobilitas.fewgoodgeeks.com/wp-json/jwt-auth/v1/token',
+                url: 'https://mobilitas.fewgoodgeeks.xyz/wp-json/jwt-auth/v1/token',
                 type: 'post',
                 data: { username: username, password: password },
                 success: function(response) {
@@ -342,7 +342,7 @@ $(document).ready(function() {$
     // get texts
     $.ajax({
         type: 'GET',
-        url: 'https://mobilitas.fewgoodgeeks.com/wp-json/services/get-texts',
+        url: 'https://mobilitas.fewgoodgeeks.xyz/wp-json/services/get-texts',
         data: { get_param: 'value' },
         dataType: 'json',
         success: function (data) {
